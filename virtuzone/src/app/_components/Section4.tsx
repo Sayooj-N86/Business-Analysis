@@ -24,7 +24,7 @@ const sect4 = [
 
 const Section4 = () => {
   return (
-    <div className="bg-[#F2F3EE] max-w-[1440px] m-auto  rounded-b-2xl">
+    <div className="bg-[#F2F3EE] max-w-[1440px] m-auto  rounded-b-2xl px-2">
       <div className="pt-10 pb-16 px-4 sm:px-6 md:px-10 lg:px-20">
         <div className="text-[1.5rem] sm:text-[1.8rem] font-semibold text-center">
           What setup option is best for your business?

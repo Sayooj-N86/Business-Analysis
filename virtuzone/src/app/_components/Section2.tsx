@@ -45,7 +45,7 @@ const Section2 = () => {
         <div className="flex flex-col gap-6 lg:gap-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-8 lg:gap-4 md:px-10 lg:px-4  ">
             {challenges.map((item) => (
-              <div key={item.no} className="bg-white p-3  md:p-6 lg:p-4 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div key={item.no} className="bg-white p-3  md:p-6 lg:p-4 rounded-xl shadow-md hover:shadow-md transition-shadow">
                 <div className="flex justify-center">
                   <span className="bg-[#fff7f7] rounded-full w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center text-amber-900 font-medium text-lg">
                     {item.no}

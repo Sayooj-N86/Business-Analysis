@@ -10,21 +10,21 @@ const sect7 = [
     date: "Mar 5, 2025",
   },
   {
-    image: "/image/sect72.webp",
+    image: "/image/sect73.webp",
     heading:
       "Corporate Governance in the UAE: What Business Owners and Entrepreneurs Need to Know",
   },
   {
-    image: "/image/sect73.webp",
+    image: "/image/sect71.webp",
     heading: "Getting a Freelance Visa Dubai (2025)",
   },
   {
-    image: "/image/sect71.webp",
+    image: "/image/sect73.webp",
     heading:
       "AI in the UAE: How Businesses Are Gaining a Competitive Edge Today",
   },
   {
-    image: "/image/sect72.webp",
+    image: "/image/sect71.webp",
     heading: "Why Invest In Dubai, and Why 2025 Is The Year To Do So!",
   },
 ];
@@ -40,7 +40,7 @@ const Section7 = () => {
           Keep up with the latest UAE company formation insights with articles
           from our team of experts.
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-4 sm:px-10 lg:px-20 xl:px-40">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 px-8 sm:px-10 lg:px-20 xl:px-40">
           {sect7.map((sec, index) => (
             <div
               key={index}

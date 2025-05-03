@@ -25,7 +25,7 @@ const sect5 = [
 
 const Section5 = () => {
   return (
-    <div className="max-w-[1440px] m-auto">
+    <div className="max-w-[1440px] m-auto px-2">
       <div className="pt-10 pb-24 px-4 sm:px-6 md:px-12 lg:px-20 xl:px-56">
         <div className="text-center font-semibold text-[1.5rem] sm:text-[2rem]">
           The process of business setup in Dubai

@@ -58,12 +58,12 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4">
         {/* Mobile Header */}
         <div className="flex justify-between items-center py-4 md:hidden">
-          <div className="relative h-10 w-10">
+          <div className="relative h-10 w-16">
             <Image
-              src="/image/vlogo.jpg"
+              src="/image/vlogo2.jpg"
               alt="Company Logo"
               fill
-              className="object-cover"
+              className="object-cover rounded-2xl"
             />
           </div>
           <button onClick={toggleMobileMenu} className="p-2 text-black">
@@ -74,12 +74,12 @@ const Header = () => {
         {/* Desktop Header */}
         <div className="hidden md:flex justify-between items-center py-3">
           {/* Logo */}
-          <div className="relative h-12 w-12 md:h-14 md:w-14 lg:h-16 lg:w-48 mb-4 md:mb-0">
+          <div className="relative h-12 w-20 md:h-14 md:w-14 lg:h-16 lg:w-48 mb-4 md:mb-0">
             <Image
-              src="/image/vlogo.jpg"
+              src="/image/vlogo2.jpg"
               alt="Company Logo"
               fill
-              className="object-cover"
+              className="object-cover rounded-2xl"
             />
           </div>
 
@@ -111,7 +111,7 @@ const Header = () => {
 
                 {/* Dropdown Menu */}
                 {activeIndex === index && (
-                  <div className="absolute left-0 mt-2 w-64 bg-white shadow-lg rounded-lg py-2 z-50 border border-gray-200">
+                  <div className="absolute left-0  w-64 bg-white shadow-lg rounded-lg py-2 z-50 border border-gray-200">
                     {header.items.map((item, idx) => (
                       <div key={idx}>
                         {item.heading && (

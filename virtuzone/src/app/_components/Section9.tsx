@@ -52,7 +52,7 @@ const Section9 = () => {
           FAQs
         </div>
         <div className="text-center text-base sm:text-lg md:text-xl pt-2 pb-8 sm:pb-12 md:pb-16 lg:pb-24 px-4 sm:px-8 md:px-16 lg:px-16 xl:px-44">
-          Our team of experts fields common questions from people all over the
+         Team experts fields common questions from people all over the
           globe about company formation in the UAE.
             formation in the UAE.
         </div>

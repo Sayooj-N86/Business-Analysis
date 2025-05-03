@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const review = [
   {
-    name: "Ilham Chehlaoui",
+    name: "Ilham Cheche",
     date: "8 October 2024",
     comment: "Smooth, fast, efficient! Didn't have to think of anything...",
     image: '/image/vp1.jpg'
@@ -18,7 +18,7 @@ const review = [
   {
     name: "Sarah Johnson",
     date: "20 June 2024",
-    comment: "Doing business with virtuzone is like drinking crystal clear water",
+    comment: "Doing business  is like drinking crystal clear water",
     image: '/image/vp3.jpg'
   },
   {
@@ -30,7 +30,7 @@ const review = [
   {
     name: "Aicha Laroussi",
     date: "12 March 2024",
-    comment: "Have had many interactions with Virtuzone and in particular Amit...",
+    comment: "Have had many interaction and in particular Amit...",
     image: '/image/vp2.jpg'
   },
   {
@@ -50,7 +50,7 @@ const Section8 = () => {
         </div>
         <div className="text-center text-[1rem] sm:text-[1.2rem] pt-2 pb-24 px-4">
           Make sure you hire the best in the business for your business setup in Dubai.
-          With Virtuzone, you will fast-track your path to business success.
+         you will fast-track your path to business success.
         </div>
 
         <div className="px-4 sm:px-10 lg:px-20 xl:px-40 mb-10">
