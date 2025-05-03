@@ -86,7 +86,7 @@ const Section8 = () => {
               {[...review, ...review].map((testimonial, index) => (
                 <div 
                   key={index} 
-                  className="bg-white px-4 pt-4 md:pb-4 rounded-lg shadow flex-shrink-0 w-[300px] md:w-[350px] lg:w-[400px]"
+                  className="bg-white px-4 pt-4 pb-4 rounded-lg shadow flex-shrink-0 w-[300px] md:w-[350px] lg:w-[400px]"
                 >
                   <div className="flex justify-between pr-3 pb-3">
                     <div>
